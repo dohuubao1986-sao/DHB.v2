@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d0d13;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .profile-card {
+            background: linear-gradient(145deg, #151522, #1a1a2e);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 242, 254, 0.15);
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+            border: 1px solid #00f2fe;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #00f2fe;
+            margin-bottom: 15px;
+            background-color: #333;
+        }
+
+        h2 {
+            margin: 5px 0;
+            color: #00f2fe;
+            font-size: 24px;
+        }
+
+        .tag {
+            background-color: #ff4444;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            color: #aaaaaa;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .btn-troll {
+            background: linear-gradient(45deg, #ff4444, #ff8800);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 25px;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .btn-troll:hover {
+            box-shadow: 0 0 15px #ff4444;
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- Bạn có thể thay đổi link ảnh avatar ở đây -->
+        <div style="display: flex; justify-content: center;">
+            <div class="avatar" style="line-height: 100px; font-size: 40px;">🎮</div>
+        </div>
+        
+        <h2>PRO GAMER</h2>
+        <span class="tag">DPI & Sensitivity Optimizer</span>
+        
+        <p class="info">Chào mừng đến với không gian cấu hình của mình. Chuyên nghiên cứu các thiết lập tối ưu hóa hiệu năng và trải nghiệm gaming mượt mà.</p>
+        
+        <!-- Nút bấm troll bạn bè -->
+        <button class="btn-troll" onclick="trollBanBe()">Nhấn để xem kho bí mật</button>
+    </div>
+
+    <script>
+        function trollBanBe() {
+            // Chuỗi thông báo troll liên tục tạo bất ngờ
+            alert("⚠️ CẢNH BÁO: Phát hiện bạn đang nhìn lén profile của một Pro Player!");
+            alert("🤖 Hệ thống đang tự động kích hoạt chế độ tự hủy...");
+            alert("🔥 Đùa thôi! Chúc bạn một ngày tốt lành và leo rank thật mượt nhé! 🚀");
+        }
+    </script>
+
+</body>
+</html>
